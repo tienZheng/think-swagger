@@ -210,15 +210,15 @@ swagger 注释文件 Tags.php
 
 网页效果图一 
 
-![avatar](./ui/images/all.png)
+![avatar](./ui/images/all.jpg)
 
 网页效果图二
 
-![avatar](./ui/images/post.png)
+![avatar](./ui/images/post.jpg)
 
 网页效果图三
 
-![avatar](./ui/images/put.png)
+![avatar](./ui/images/put.jpg)
 
 
 ## License
