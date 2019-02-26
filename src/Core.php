@@ -145,6 +145,13 @@ trait Core
      */
     protected function removeRequire($rule)
     {
-        return str_replace('require', '', $rule);
+        //先去掉 require|
+        if (strpos($rule, 'require|') !== false) {
+            return str_replace('require|', '', $rule);
+        } elseif (strpos($rule, '|require') !== false) {
+            return str_replace('|require', '', $rule);
+        } else {
+            return str_replace('require', '', $rule);
+        }
     }
 }
