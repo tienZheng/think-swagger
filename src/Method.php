@@ -329,7 +329,7 @@ class Method extends Tien
         $content .= CM::${$this->method} . CM::$leftPTEnd;
 
         //path
-        $content .= CM::$glueSpace . $this->glueEqual('path', $this->doubleQuotation($this->routeRule)) . CM::$commaEnd;
+        $content .= CM::$glueSpace . $this->glueEqual('path', $this->doubleQuotation('/' . $this->routeRule)) . CM::$commaEnd;
 
         //tags
         $content .= CM::$glueSpace . $this->glueEqual('tags', $this->braces($this->doubleQuotation($this->tag))) . CM::$commaEnd;
