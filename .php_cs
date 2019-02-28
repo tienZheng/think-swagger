@@ -2,7 +2,7 @@
 $header = <<<EOF
 This file is part of the tien/think-swagger.
 
-(c) tienZheng <912246548@qq.com>
+(c) tienZheng <913346548@qq.com>
 
 This source file is subject to the MIT license that is bundled.
 EOF;
