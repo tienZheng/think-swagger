@@ -13,7 +13,7 @@
 ## 安装
 
 ```shell
-$ composer require tien/think-swagger:dev
+$ composer require tien/think-swagger
 ```
 
 ## 使用
