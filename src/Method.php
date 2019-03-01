@@ -422,8 +422,12 @@ class Method extends Tien
         foreach ($info as $key => $value) {
             $content .= CM::$glueSpace . CM::$parameter . CM::$leftPTEnd;
 
-            list($name, $translate) = explode('|', $key);
-
+            $keys = explode('|', $key);
+            if (1 == count($keys)) {
+                $name = $translate = $key;
+            } else {
+                list($name, $translate) = $keys;
+            }
             //name
             $content .= CM::$glueTwoTabs . $this->glueEqual('name', $this->doubleQuotation($name)) . CM::$commaEnd;
 
